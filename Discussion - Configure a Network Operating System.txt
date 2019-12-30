@@ -4,8 +4,8 @@ use the show startup-config privileged EXEC command.
 - Running-config: The file stored in Random Access Memory (RAM) that reflects the current configuration. 
 Modifying a running configuration affects the operation of a Cisco device immediately. 
 RAM is volatile memory. It loses all of its content when the device is powered off or restarted. 
-- Introduction to Networks v6
 - Save the Running Configuration File (2.2.3.1)
+- Introduction to Networks v6
 
 2.  interface fastethernet 0/0
 - A fast ethernet interface numbered;
@@ -15,29 +15,29 @@ RAM is volatile memory. It loses all of its content when the device is powered o
 
 - Interface: Specialized ports on a networking device that connect to individual networks. 
 Because routers are used to interconnect networks, the ports on a router are referred to as network interfaces. 
-- Introduction to Networks v6
 - Network Representations (1.2.1.5)
+- Introduction to Networks v6
 - cisco.com
 
 3.  enable
 - Various commands are used to move in and out of command prompts. To move from user EXEC mode to privileged EXEC mode, use the enable command. 
 - Privileged EXEC mode is sometimes called enable mode. 
 - Example: Switch > enable
-- Introduction to Networks v6
 - Navigate Between IOS Modes (2.1.3.4)
+- Introduction to Networks v6
 
 4.  configure terminal
 - To move in and out of global configuration mode, use the configure terminal privileged EXEC mode command. 
-- Introduction to Networks v6
 - Navigate Between IOS Modes (2.1.3.4)
+- Introduction to Networks v6
 
 5.  line vty 0 4
 - Virtual terminal line numbered 0 4;
 - Virtual terminal (VTY) lines enable remote access to the device. To secure VTY lines used for SSH and Telnet, 
 enter line VTY mode using the ‘line vty 0 15’ global config command. 
-- Introduction to Networks v6
 - Configure Passwords (2.2.2.2)
 - Basic Router Configuration Steps (6.4.1.2)
+- Introduction to Networks v6
 
 6.  clock set ?
 - Clock set online help function;
@@ -49,21 +49,21 @@ enter line VTY mode using the ‘line vty 0 15’ global config command.
 - Virtual interface;
 - Vlan 1 is not an actual physical interface but a virtual one.
 - To configure an SVI on a switch, use the interface vlan 1 global configuration command. 
-- Introduction to Networks v6
 - Switch Virtual Interface Configuration (2.3.2.3)
+- Introduction to Networks v6
 
 8.  show version
 - The show version command displays information about the version of the Cisco IOS software currently running on the router, 
 the version of the bootstrap program, and information about the hardware configuration, including the amount of system memory. 
-- Introduction to Networks v6
 - Show Version Output (6.3.2.4)
+- Introduction to Networks v6
 
 9.  show interfaces
 - Displays statistics for all interfaces on the device.
-- Introduction to Networks v6
 - Verify Interface Configuration (6.4.2.2)
+- Introduction to Networks v6
 
 10.  show startup-config
 - To view the startup configuration file, use the show startup-config privileged EXEC command.
-- Introduction to Networks v6
 - Save the Running Configuration File (2.2.3.1)
+- Introduction to Networks v6
