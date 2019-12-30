@@ -1,0 +1,42 @@
+1. Bootstrap Protocol (BOOTP)
+- Protocol used by a network node to determine the IP address of its Ethernet interfaces in order to facilitatenetwork booting.
+
+- Application Layer Protocols:
+Host Configuration Related Protocols: 
+--Name: Bootstrap Protocol (BOOTP)
+--TCP/UDP Port #: UDP 67, 68
+--Description: Enables a diskless workstation to discover its own IP address, the IP address of a BOOTP server on the network, 
+and a file to be loaded into memory to boot the machine. BOOTP is superseded by DHCP.
+
+2. Simple Mail Transfer Protocol (SMTP)
+- An application layer protocol providing electronic mail services to transfer mail from client toserver and between servers.
+
+- Application Layer Protocols:
+Email Related Protocols: 
+--Name: Simple Mail Transfer Protocol (SMTP)
+--TCP/UDP Port #: TCP 25
+--Description: Enables a diskless workstation to discover its own IP address, the IP address of a BOOTP server on the network, 
+and a file to be loaded into memory to boot the machine. BOOTP is superseded by DHCP.
+
+3. Post Office Protocol (POP)
+- A protocol that allows a computer to retrieve email from a server.
+
+4. Internet Message Access Protocol (IMAP)
+- Protocol that describes a method to retrieve email messages. Unlike POP, copies of themessages are downloaded to the client application but the original messages are kept on the server until manually deleted.
+
+5. File Transfer Protocol (FTP)
+- Application protocol, part of the TCP/IP protocol stack, used for transferring files between network nodes.FTP is defined in RFC 959.
+
+6. Trivial File Transfer Protocol (TFTP)
+- A protocol similar to FTP that provides the transfer of files from one computer to another over a network. 
+TFTP is supported by UDP where FTP is supported by TCP.
+
+7. Client-server
+- A computer system setup in which tasks are distributed between a service provider (server) and a service user, 
+such as a workstation (client). The server is used to store the applications and data and the majority of the computer 
+processing is done on the server.
+
+8. Server Message Block (SMB)
+- An application level network protocol mainly applied to shared access to files, printers, serial ports, andmiscellaneous communications between nodes on a network.
+
+-Introduction to Networks v6
