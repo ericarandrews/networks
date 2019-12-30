@@ -1,0 +1,78 @@
+1. Octet
+- A group of 8 binary bits. It is similar, but not the same as, a byte. One application in computer networking is to use octets to divide 
+IPv4 addresses into four components.
+- IPv4 Addresses Expressed in Binary:
+- Each address consists of a string of 32 bits, divided into four sections called octets.
+
+- Introduction to Networks v6
+
+2. Prefix length
+- In IP subnetting, this refers to the portion of a set of IP addresses whose value must be identical for the addresses to be in the same subnet. 
+- Expressing network addresses and host addresses with the dotted decimal subnet mask address can become cumbersome. Fortunately, there is an 
+alternate shorthand method of identifying a subnet mask called the prefix length.
+
+- Introduction to Networks v6
+
+3. Slash notation
+- A method of expressing a network prefix. It uses a forward slash (/) followed by the network prefix, for example, 192.168.254.0/24. This /24 
+represents the 24-bit network prefix in slash format.
+- Specifically, the prefix length is the number of bits set to 1 in the subnet mask. It is written in “slash notation,” which is a “/” followed by 
+the number of bits set to 1. Therefore, count the number of bits in the subnet mask and prepend it with a slash.
+
+- Introduction to Networks v6
+
+4. Network address
+- A dotted decimal number defined by the IPv4 protocol to represent a network or subnet. It represents the network that hosts reside in. Also called 
+a network number or network ID.
+- Address and subnet mask refer to a network. All hosts within the network share the same network address. The host portion is all 0s.
+
+- Introduction to Networks v6
+
+5. Host address
+- IPv4 address of a network host. When talking about host addresses, they are the network layer addresses.
+- Unique IP addresses assigned to hosts and devices. The host portion always contains assorted 0s and 1s but never all 0s or all 1s.
+
+- Introduction to Networks v6
+
+6. Broadcast address
+- Special address reserved for sending a message to all stations. Generally, a broadcast address is a MAC destination address of all ones. Compare with
+ multicast address and unicast address.
+- A special address that communicates with all hosts in a network. For instance, when a host sends a packet to the network broadcast IPv4 address, all 
+other hosts in the network receive the packet. The broadcast address uses the highest address in the network range. The host portion is all 1s.
+
+- Introduction to Networks v6
+
+7. Classful addressing
+- A unicast IP address that is considered to have three parts: a network part, a subnet part, and a host part. The term classful refers to the fact that 
+the classful network rules are first applied to the address, and then the rest of the address can be separated into a subnet and host part to perform subnetting. 
+Originally, IPv4 addresses were divided into five classes, namely, Class A, Class B, Class C, Class D, and Class E. Classful addressing is not generally practiced 
+in current network implementations.
+- In 1981, Internet IPv4 addresses were assigned using classful addressing as defined in RFC 790, Assigned Numbers. Customers were allocated a network address 
+based on one of three classes, A, B, or C. The RFC divided the unicast ranges into specific classes called:
+- Class A (0.0.0.0/8 to 127.0.0.0/8)
+- Class B (128.0.0.0 /16 to 191.255.0.0 /16)
+- Class C (192.0.0.0 /24 to 223.255.255.0 /24)
+- There is also a Class D multicast block consisting of 224.0.0.0 to 239.0.0.0 and a Class E experimental address block consisting of 240.0.0.0 to 255.0.0.0.
+
+- Introduction to Networks v6
+
+8. Classless addressing
+- An IPv4 addressing scheme that uses a subnet mask that does not follow classful addressing limitations. It provides increased flexibility when dividing ranges of 
+IP addresses into separate networks. Classless addressing is considered the best in current network implementations.
+- When you assign an IPv4 address to a computer, the operating system examines the address being assigned to determine if this address is a Class A, Class B, or Class C. 
+The operating system then assumes the prefix used by that class and makes the default subnet mask assignment. The system in use today is referred to as classless addressing. 
+The formal name is Classless Inter-Domain Routing (CIDR, pronounced “cider”). 
+
+- Introduction to Networks v6
+
+9. Tunneling
+- Encapsulating an IP packet inside another IP packet.
+- Tunneling is a method of transporting an IPv6 packet over an IPv4 network. The IPv6 packet is encapsulated inside an IPv4 packet, similar to other types of data.
+
+- Introduction to Networks v6
+
+10. Dual stack
+- A device that is enabled for both IPv4 and IPv6 protocols.
+- Dual stack allows IPv4 and IPv6 to coexist on the same network segment. Dual stack devices run both IPv4 and IPv6 protocol stacks simultaneously.
+
+- Introduction to Networks v6
