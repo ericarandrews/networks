@@ -1,0 +1,20 @@
+1. Redundancy
+- In internetworking, a network architecture designed to eliminate network downtime caused by a single point of failure. 
+Redundancy includes the replication of devices, services, or connections that support operations even in the occurrence of a failure.
+
+2. Real-time traffic
+- Data traffic that carries signal output as it happens or as fast as possible. 
+Real-time traffic is sensitive to latency and jitter.
+
+3. Protocol analyzer
+- Network monitoring device gathers information regarding the status of the network and devices attached to it. 
+Also known as network analyzer, or packet sniffer.
+
+4. Octet boundary
+- The part of an IPv4 address that falls between an octet.
+
+5. Variable Length Subnet Masking (VLSM)
+- Ability to specify a different subnet mask for the same network number on different subnets. 
+VLSM can help optimize available address space.
+
+- Introduction to Networks v6
