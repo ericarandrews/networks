@@ -1,0 +1,70 @@
+1. Institute of Electrical and Electronics Engineers (IEEE)
+- There are many different international and national organizations, regulatory government organizations, 
+and private companies involved in establishing and maintaining physical layer standards. For instance, 
+the physical layer hardware, media, encoding, and signaling standards are defined and governed by the...
+"Institute of Electrical and Electronics Engineers (IEEEE)".
+- The electrical characteristics of copper cabling are defined by the "Institute of Electrical and Electronics Engineers (IEEE)".
+- Engineering organizations that define open standards and protocols that apply to the network access layer include...
+"Institute of Electrical and Electronics Engineers (IEEE)".
+
+- Introduction to Networks v6
+
+2. Bandwidth
+- Different physical media support the transfer of bits at different rates. Data transfer is usually discussed in terms of 
+"bandwidth" and throughput. "Bandwidth" is the capacity of a medium to carry data.
+
+- Introduction to Networks v6
+
+3. Throughput
+- "Throughput" is the measure of the transfer of bits across the media over a given period of time.
+
+- Introduction to Networks v6
+
+4. Latency
+- "Latency" refers to the amount of time, to include delays, for data to travel from one given point to another.
+
+- Introduction to Networks v6
+
+5. Radio frequency interference (RFI)
+- Electromagnetic interference (EMI) or "radio frequency interference (RFI)" - EMI and "RFI" signals can distort and corrupt the 
+data signals being carried by copper media. Potential sources of EMI and "RFI" include radio waves and electromagnetic devices, 
+such as fluorescent lights or electric motors...
+
+- Introduction to Networks v6
+
+6. Physical media
+- On the sending device, it is the role of the data link layer to prepare data for transmission and control how that data accesses 
+the "physical media". However, the physical layer controls how the data is transmitted onto the "physical media" by encoding the 
+binary digits that represent data into signals.
+
+- Introduction to Networks v6
+
+7. Network Interface Card (NIC)
+- "Network Interface Cards (NICs)" - connect a device to the network. Ethernet "NICs" are used for a wired connection...whereas 
+WLAN (Wireless Local Area Network) "NICs" are used for wireless.
+
+- Introduction to Networks v6
+
+8. Half-duplex
+- Half-duplex communication - Both devices can transmit and receive on the media but cannot do so simultaneously. The "half-duplex" 
+mode is used in legacy bus topologies and with Ethernet hubs. WLANS also operate in "half-duplex". "Half-duplex" allows only one device 
+to send or receive at a time on the shared medium and is used with contention-based access methods. 
+
+- Introduction to Networks v6 
+
+9. Full-duplex
+- Full-duplex communications - Both devices can transmit and receive on the media at the same time. The data link layer assumes that 
+the media is available for transmission for both nodes at any time. Ethernet switches operate in "full-duplex" mode by default but can 
+operate in half-duplex if connecting to a device such as an Ethernet hub.
+
+- Introduction to Networks v6 
+
+10. Carrier Sense Multiple Access / Collision Detection (CSMA/CD)
+- WLANs, Ethernet LANs with hubs, and legacy Ethernet bus networks are all examples of contention-based access networks. All of these networks 
+operate in half-duplex mode. This requires a process to govern when a device can send and what happens when multiple devices send at the same time. 
+- The Carrier Sense Multiple Access/Collision Detection (CSMA/CD) process is used in half-duplex Ethernet LANs.
+- Another from of CSMA that is used by IEEE 802.11 WLANs is 'Carrier Sense Multiple Access/Collision Avoidance (CSMA/CA)'.
+- Wifi (IEEE 802.11 standard) - Wireless LAN (WLAN) technology, commonly referred to as Wi-Fi. WLAN uses a contention-based protocol known 
+as 'Carrier Sense Multiple Access/Collision Avoidance (CSMA/CA)'.
+
+- Introduction to Networks v6 
