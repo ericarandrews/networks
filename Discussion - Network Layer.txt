@@ -1,0 +1,49 @@
+1. Routing
+- The network layer provides services to direct packets to a destination host on another network. To travel to other networks, the packet must be processed by a router. The role of the router is to select the best path and direct packets toward the destination host in a process known as routing. A packet may cross many intermediary devices before reaching the destination host. Each router a packet crosses to reach the destination host is called a hop.
+
+
+2. Connectionless
+- No connection with the destination is established before sending data packets.
+
+
+3. Best-effort delivery
+- The unreliable or best-effort delivery...
+- Describes a network system that does not use a sophisticated acknowledgement system to guarantee reliable delivery of information.
+ 
+
+4. Maximum transmission unit (MTU)
+- ...one major characteristic of the media that the network layer considers: the maximum size of the PDU that each medium can transport. This characteristic is referred to as the maximum transmission unit (MTU).
+- The largest IP packet size allowed to be sent out a particular interface. Ethernet interfaces default to an MTU of 1500 because the data field of a standard Ethernet frame should be limited to 1500 bytes, and the IP packet sits inside the Ethernet frame's data field. The Gigabit Ethernet standard supports "jumbo frames," which can be as large as 9216, including tagging.
+
+
+5. Fragmentation
+- In some cases, an intermediated device, usually a router, must split up a packet when forwarding it from one medium to another medium with a smaller MTU. This process is called fragmenting the packet or fragmentation.
+- The dividing of IP datagrams to meet the MTU requirements of a Layer 2 protocol.
+
+
+6. Internet Control Message Protocol (ICMP)
+- If a 'Time-to-Live (TTL)' field decrements to zero, the router discards the packet and sends an 'Internet Control Message Protocol (TCMP)' Time Exceeded message to the source IP address.
+- As part of the TCP/IP Internet layer, ICMP defines protocol messages used to inform network engineers of how well an internetwork is working. For example, the ping command sends ICMP messages to determine whether a host can send packets to another host.
+
+
+7. Network Address Translation (NAT)
+- ...is a technology commonly implemented within IPv4 networks. NAT provides a way for multiple devices to share a single public IPv4 address. However because the public IPv4 address is shared, the IPv4 address of an internal network host is hidden. This can be problematic for technologies that require end-to-end connectivity. 
+- Translation of IP addresses to different addresses. This is commonly used to translate RFC 1918 addresses that are not routed on the Internet to public domain addresses that can be routed on the Internet.
+
+
+8. Media independent
+- Operation is independent of the medium (i.e., copper, fiber optic, or wireless) carrying the data.
+- The networking layers whose processes are not affected by the media being used. In Ethernet, these are all the layers from the LLC sublayer of data link upward.
+
+
+9. Loopback interface
+- A host can ping itself by sending a packet to a special IPv4 address of 127.0.0.1, which is referred to as the 'loopback interface'. Pinging the loopback interface tests the TCP/IP protocol stack on the host. - Itself
+
+
+10. Default gateway
+- The router connected to the local network segment is referred to as the 'default gateway'.
+- The default gateway is the network device that can route traffic to other networks. It is the router that can route traffic out of the local network. 
+- A device on a network that serves as an access point to other networks. A default gateway is used by a host to forward IP packets that have destination addresses outside the local subnet. A router interface typically is used as the default gateway. When the computer needs to send a packet to another subnet, it sends the packet to its default gateway. Also known as default router. 
+
+
+- Introduction to Networks v6
