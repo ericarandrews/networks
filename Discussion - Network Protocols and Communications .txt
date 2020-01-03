@@ -1,0 +1,26 @@
+1. Explain how rules are used to facilitate communication.
+-Computer networks use rules for communications, similar to rules used in human communications. In order for two devices to communicate they must use the same rules. 
+-Before communicating with one another, individuals must use established rules or agreements to govern the conversation. These rules, or protocols, must be following in order for the message to be successfully delivered an understood. Protocols must account for the following requirements:
+	-An identified sender and receiver
+	-Common language and grammar
+	-Speed and timing of delivery
+	-Confirmation or acknowledgement requirements
+
+					-The Rules (3.1.1)
+					-Rule Establishment (3.1.1.2)
+					-Introduction to Networks v6
+
+2. Explain the role of protocols and standards organizations in facilitating interoperability in network communications.
+-Open standards encourage interoperability, competition, and innovation. They also guarantee that no single company's product can monopolize the market or have an unfair advantage over its competition. 
+-Operating systems implement the open standard protocols, such as those in the TCP/IP protocol suite. 
+-Standards organizations are important in maintaining an open Internet with freely accessible specifications and protocols that can be implemented by any vendor. 
+					
+					-Open Standards (3.2.3.1)
+					-Introduction to Networks v6
+			
+3. Explain how devices on a LAN access resources in a small to medium-sized business network.
+-The TCP/IP protocol suite is implemented as a TCP/IP stack on both the sending and receiving hosts to provide end-to-end delivery of applications over a network. The Ethernet protocols are used to transmit the IP packet over the physical medium used by the LAN.
+-A good example of this is when purchasing a wireless router for the home. There are many different choices available from a variety of vendors, all of which incorporate standard protocols such as IPv4, DHCP, 802.3 (Ethernet), and 802.11 (Wireless LAN). These open standards also allow a client running Apple's OS X operating system to download a web page from a web server running the Linux operating system. This is because both operating systems implement the open standard protocols, such as those in the TCP/IP protocol suite.
+
+					-Open Standards (3.2.3.1)
+					-Introduction to Networks v6
