@@ -1,0 +1,80 @@
+1. Port number
+- A field in a TCP or UDP header that identifies the application that either send (source port) or should receive (destination port) the data inside the data segment.
+- To pass data streams to the proper applications, the transport layer must identify the target application (Figure 9-4). 
+To accomplish this, the transport layer assigns each application an identifier called a port number. 
+Each software process that needs to access the network is assigned a port number unique to that host.
+
+
+2. Multiplexing
+- A process where multiple digital data streams are combined into one signal.
+- Multiplexing divides the data into smaller segments and enables communications from many different users to be interleaved (multiplexed) on the same network.
+
+
+3. Transmission Control Protocol (TCP)
+- A Layer 4 protocol of the TCP/IP model, TCP lets applications guarantee delivery of data across a network.
+- IP is concerned only with the structure, addressing, and routing of packets. 
+IP does not specify how the delivery or transportation of the packets takes place.Transport protocols specify how to transfer messages between hosts. 
+TCP/IP provides two transport layer protocols, Transmission Control Protocol (TCP) and User Datagram Protocol (UDP). 
+IP uses these transport protocols to enable hosts to communicate and transfer data.
+
+
+4. User Datagram Protocol (UDP)
+- A connectionless transport layer protocol in the TCP/IP protocol stack. 
+UDP is a simple protocol that exchanges datagrams without acknowledgements or guaranteed delivery,requiring that error processing and retransmission be handled.
+- IP is concerned only with the structure, addressing, and routing of packets. 
+IP does not specify how the delivery or transportation of the packets takes place.Transport protocols specify how to transfer messages between hosts. 
+TCP/IP provides two transport layer protocols, Transmission Control Protocol (TCP) and User Datagram Protocol (UDP). 
+IP uses these transport protocols to enable hosts to communicate and transfer data.
+
+
+5. Connection-oriented
+- Term used to describe data transfer that requires the establishment of a virtual circuit.
+- TCP is a connection-oriented protocol. 
+A connection-oriented protocol is one that negotiates and establishes a virtual connection 
+(or session) between source and destination devices prior to forwarding any traffic. 
+Through session establishment, the devices negotiate the amount of traffic that can be forwarded at a given time, 
+and the communication data between the two can be closely managed.
+
+
+6. Stateful
+- Tracking of actual conversations and their state of the communication session for a protocol, such as TCP.
+- TCP is a stateful protocol. A stateful protocol is a protocol that keeps track of the state of the communication session. 
+To track the state of a session, TCP records which information it has sent and which information has been acknowledged. 
+The stateful session begins with the session establishment and ends when closed with the session termination.
+
+
+7. Socket
+- A logical communications end point within a network device. 
+A socket is typically represented by a Layer 3 address and a Layer 4 port number.
+- The source and destination ports are placed within the segment. 
+The segments are then encapsulated within an IP packet. 
+The IP packet contains the IP address of the source and destination. 
+The combination of the source IP address and source port number, 
+or the destination IP address and destination port number is known as a socket. 
+The socket is used to identify the server and service being requested by the client.
+
+
+8. Three-way handshake
+- The process used by TCP to establish a session.
+- Hosts track each data segment within a session and exchange information about what data is received using the information in the TCP header. 
+TCP is a full-duplex protocol, where each connection represents two one-way communication streams or sessions. 
+To establish the connection, the hosts perform a three-way handshake. 
+Control bits in the TCP header indicate the progress and status of the connection.The three-way handshake--Establishes that the destination device is present on the network.--Verifies that the destination device has an active service and is accepting requests on the destination port number that the initiating client intends to use.--Informs the destination device that the source client intends to establish a communication session on that port number.
+
+
+9. Expectational acknowledgement
+- Acknowledgement used by TCP where the ACK number is sent back to the source to indicate the next byte that the receiver expects to receive.
+- The sequence (SEQ) number and acknowledgement (ACK) number are used together to confirm receipt of the bytes of data contained in the transmitted segments. 
+The SEQ number identifies the first byte of data in the segment being transmitted. 
+TCP uses the ACK number sent back to the source to indicate the next byte that the receiver expects to receive. 
+This is called expectational acknowledgement.
+
+
+10. Window size
+- As filed in the TCP header that is set in a sent segment, signifies the maximum amount of unacknowledged data the host is willing toreceive before the other sending host must wait for an acknowledgement. Used for flow control.
+- TCP also provides mechanisms for flow control, the amount of data that the destination can receive and process reliably. 
+Flow control helps maintain the reliability of TCP transmission by adjusting the rate of data flow between source and destination for a given session. 
+To accomplish this, the TCP header includes a 16-bit field called the window size.
+
+
+- Introduction to Network v6
